@@ -1,0 +1,13 @@
+.dropdown{
+	display: none;
+}
+:host{
+	display: flex;
+	flex-direction: row;
+  justify-content: space-between;
+}
+ul{
+position: absolute;
+top:10%
+}
+

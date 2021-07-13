@@ -1,0 +1,28 @@
+:host {
+	display: block;
+}
+:host > * {
+	width: 100%;
+}
+table {
+	min-width: 26em;
+	min-height: 26em;
+	
+}
+th, td {
+	text-align: center;
+}
+tbody > tr > td:hover {
+  background: rgb(var(--smoothly-light-shade));
+}
+.selected {
+  color: rgb(var(--smoothly-primary-contrast));
+  background: rgb(var(--smoothly-light-shade));
+}
+.today {
+  background: rgb(var(--smoothly-primary-color));
+	color: rgb(var(--smoothly-primary-contrast));
+}
+td.today:hover{
+ background: rgb(var(--smoothly-primary-color));
+}

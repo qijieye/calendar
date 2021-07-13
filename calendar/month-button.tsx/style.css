@@ -1,0 +1,22 @@
+button{
+  border: none;
+	background: none;
+	cursor: pointer;
+  font-size: large;
+	display: inline;
+}
+
+li {
+	list-style-type:none;
+	text-align: start;
+	background-color: rgb(var(--smoothly-primary-color));
+}
+li:hover{
+	background-color: rgb(var(--smoothly-medium-color));
+}
+div{
+position: absolute;
+}
+:host{
+	display: flex;
+}
